@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sakthivel R | Android Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <button id="theme-toggle">Toggle Dark Mode</button>
+
+  <header class="reveal">
+    <div class="container">
+      <h1>Sakthivel R</h1>
+      <p>Android Developer | Kotlin & Java | 4+ Years Experience</p>
+      <div class="links">
+        <a href="https://github.com/yourusername">GitHub</a>
+        <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a>
+        <a href="mailto:you@example.com">Contact</a>
+        <a href="resume.pdf" download>Download Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="reveal">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm an Android Developer with 4+ years of experience building scalable, high-performance mobile applications. 
+        I specialize in Kotlin, Java, Jetpack Compose, MVVM architecture, Retrofit, Firebase, and integrating modern design patterns.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="reveal">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>Kotlin & Java</li>
+        <li>Jetpack Compose</li>
+        <li>MVVM / Clean Architecture</li>
+        <li>Retrofit / REST APIs</li>
+        <li>Room / Firebase / SQLite</li>
+        <li>Material Design 3</li>
+        <li>CI/CD, Git, Play Store Deployment</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="reveal">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>MyCare App</h3>
+        <p>Healthcare app with appointment booking, health tracking, and video consultation using Firebase and Jetpack libraries.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.mycare.app">View on Play Store</a>
+      </div>
+
+      <div class="project">
+        <h3>Smart Home Controller</h3>
+        <p>IoT-based smart home app for managing appliances remotely using MQTT protocol.</p>
+        <a href="https://github.com/yourusername/smart-home-controller">View on GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3>Notes App with Jetpack Compose</h3>
+        <p>Modern UI notes app using Jetpack Compose, Room, MVVM, and state management.</p>
+        <a href="https://github.com/yourusername/compose-notes-app">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="reveal">
+    <div class="container">
+      <h2>Blog</h2>
+      <ul>
+        <li><a href="#">Why Jetpack Compose is the Future of Android UI</a></li>
+        <li><a href="#">MVVM vs. MVI in Kotlin Apps</a></li>
+        <li><a href="#">Publishing to Play Store: A Step-by-Step Guide</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: you@example.com</p>
+      <p>Location: India (Remote / Hybrid)</p>
+    </div>
+  </section>
+
+  <footer class="reveal">
+    <div class="container">
+      <p>&copy; 2025 Sakthivel R. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+
+    ScrollReveal().reveal('.reveal', {
+      duration: 800,
+      distance: '50px',
+      easing: 'ease-out',
+      origin: 'bottom',
+      interval: 100
+    });
+  </script>
+</body>
+</html>
